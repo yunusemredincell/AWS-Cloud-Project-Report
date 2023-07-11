@@ -142,17 +142,17 @@
 
 ### _Actions_ kısmından _Enable CORS_ seçeneğindeki adımlar tamamlanır. Bunun ardından Deploy API seçilerek bir _Stages_ oluşturulur.
 
-![This is an alt text.]([image\ek10.png](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek10.png) "EK 10")
+![This is an alt text.]([image\ek10.png](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek10.png "EK 10")
 
 #### _Ek 10_
 
-![This is an alt text.]([image\ek11.png](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek11.png) "EK 11")
+![This is an alt text.]([image\ek11.png](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek11.png "EK 11")
 
 #### _Ek 11_
 
 ### Oluşturulan Stages AWS tarafından oluşturulmuş bir URL barındırmaktadır. (Ek 12.)
 
-![This is an alt text.]([image\ek12.png](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek12.png) "EK 12")
+![This is an alt text.]([image\ek12.png](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek12.png "EK 12")
 
 #### _Ek 12_
 
@@ -160,7 +160,7 @@
 
 ### kodumuzda script kısmında Ek 13’teki gibi Invoke URL kullanılarak Amplify ile API Gateway servisleri bağlanır.
 
-![This is an alt text.]([image\ek13.png](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek13.png) "EK 13")
+![This is an alt text.]([image\ek13.png](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek13.png "EK 13")
 
 #### _Ek 13_
 
@@ -174,7 +174,7 @@
 
 ### izinlerin ve erişimin sağlanması için DynamoDB ile oluşturulan Amazon Resource Name (ARN) kopyalanır (Ek 14) ve gerekli konfigürasyonlar için kullanılır.
 
-![This is an alt text.]([image\ek14.png](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek14.png) "EK 14")
+![This is an alt text.]([image\ek14.png](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek14.png "EK 14")
 
 #### _Ek 14_
 
@@ -188,7 +188,7 @@
 
 ### güncellenir. (Ek 15) JSON kodunda yer alan Resource kısmına DynamoDB ile oluşturulan ARN yapıştırılır. Bu sayede DynamoDB için gerekli izinler sağlanmış olur.
 
-![This is an alt text.]([image\ek15.png](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek15.png) "EK 15")
+![This is an alt text.]([image\ek15.png](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek15.png "EK 15")
 
 #### _Ek 15_
 
