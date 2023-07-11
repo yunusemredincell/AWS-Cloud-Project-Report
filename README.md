@@ -90,23 +90,23 @@
 
 ### Daha sonrasında oluşturulan API içerisinden _Create Method_ seçilir ve POST metodu oluşturulur. (Ek 10.) Tüm bu aşamalardan sonra Ek 11’deki şema elde edilir. Bu işlemlerin ardından _Actions_ kısmından _Enable CORS_ seçeneğindeki adımlar tamamlanır. Bunun ardından Deploy API seçilerek bir _Stages_ oluşturulur.
 
-![This is an alt text.]([image\ek10.png](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek10.png "EK 10")
+![This is an alt text.](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek10.png "EK 10")
 
 #### _Ek 10_
 
-![This is an alt text.]([image\ek11.png](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek11.png "EK 11")
+![This is an alt text.](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek11.png "EK 11")
 
 #### _Ek 11_
 
 ### Oluşturulan Stages AWS tarafından oluşturulmuş bir URL barındırmaktadır. (Ek 12.)
 
-![This is an alt text.]([image\ek12.png](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek12.png "EK 12")
+![This is an alt text.](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek12.png "EK 12")
 
 #### _Ek 12_
 
 ### Oluşturulan bu URL sizin API Gateway’inizi oluşturmaktadır. Amplify ile API Gateway servislerini birbirleriyle etkileşime sokmak için bu Invoke URL kullanılmaktadır. Kaynak kodumuzda script kısmında Ek 13’teki gibi Invoke URL kullanılarak Amplify ile API Gateway servisleri bağlanır.
 
-![This is an alt text.]([image\ek13.png](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek13.png "EK 13")
+![This is an alt text.](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek13.png "EK 13")
 
 #### _Ek 13_
 
@@ -114,7 +114,7 @@
 
 ### Amazon DynamoDB, her ölçekte yüksek performanslı uygulamaları çalıştırmak için tasarlanmış, tam olarak yönetilen, sunucusuz, anahtar-değer NoSQL veri tabanıdır. DynamoDB; yerleşik güvenlik, sürekli yedeklemeler, otomatikleştirilmiş çok Bölgeli çoğaltma, bellek içi önbelleğe alma, içeri ve dışarı veri aktarma araçları sunar. DynamoDB servisine giderek, *Create Table* komutuyla DynamoDB oluşturulur. Bu sayede Lambda fonksiyonundan sonra oluşan veriler DynamoDB ile veri tabanında depolanır. Bunun yapılması için IAM üzerinden gerekli izinlerin ve erişimin sağlanması için DynamoDB ile oluşturulan Amazon Resource Name (ARN) kopyalanır (Ek 14) ve gerekli konfigürasyonlar için kullanılır.
 
-![This is an alt text.]([image\ek14.png](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek14.png "EK 14")
+![This is an alt text.](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek14.png "EK 14")
 
 #### _Ek 14_
 
@@ -122,7 +122,7 @@
 
 ### IAM ile ayrıntılı izinler belirleyerek kimin neye erişebileceğini tanımlarsınız. IAM daha sonra, her istek için bu izinleri uygular. Erişim varsayılan olarak reddedilir ve yalnızca izinlerde "İzin Ver" komutu varsa erişim sunulur. Bulut projesinde gerekli izinlerin sağlanabilmesi için Lambda servisi ile _Configurations_ kısmına gelinir. Ardından sol tarafta bulunan _Permissions_ seçeneğine tıklanarak _Execution Role_ seçeneğine gidilir. Burada açılan sayfa ile _Add Permission_ ardından _Create Inline Policy_ seçeneğiyle JSON dosyası güncellenir. (Ek 15) JSON kodunda yer alan Resource kısmına DynamoDB ile oluşturulan ARN yapıştırılır. Bu sayede DynamoDB için gerekli izinler sağlanmış olur.
 
-![This is an alt text.]([image\ek15.png](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek15.png "EK 15")
+![This is an alt text.](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek15.png "EK 15")
 
 #### _Ek 15_
 
