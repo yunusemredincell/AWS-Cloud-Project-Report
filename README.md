@@ -32,7 +32,7 @@
 
 ### başlayabilirsiniz.
 
-![This is an alt text.](image\ek2.png "EK 2")
+![This is an alt text.](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek2.png "EK 2")
 
 #### _Ek 2_
 
@@ -52,7 +52,7 @@
 
 ### birbirleriyle olan bağlantılar ve ne için gerekli oldukları ileriki bölümlerde detaylıca ele alınacaktır.
 
-![This is an alt text.](image\arch.jpg "ŞEKİL 1")
+![This is an alt text.](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/arch.jpg "ŞEKİL 1")
 
 #### _Şekil 1_
 
@@ -64,13 +64,13 @@
 
 ### kolayca kullanmaya olanak tanır. Projemizde bir web sitesi üzerinden işlem yapacağımızı düşünürsek, web sitesi kaynak kodlarını AWS Amplify’ a yükleyerek kullanıma başlanabilir.
 
-![This is an alt text.](image\ek3.png "EK 3")
+![This is an alt text.](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek3.png "EK 3")
 
 #### _Ek 3_
 
 ### Ek 3’te bulunan New App kısmından Host Web App seçilerek projenizin kaynak kodu için açılan sekmeden hangi yolla kaynak kodlarınızı yükleyeceğinizi seçmeniz gerekir. (_Hosting Page_)
 
-![This is an alt text.](image\hosting.png "HOSTING PAGE")
+![This is an alt text.](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/hosting.png "HOSTING PAGE")
 
 #### _Hosting Page_
 
@@ -80,13 +80,13 @@
 
 ### Yükleme tamamlandıktan sonra projeniz App kısmında Ek 4’teki gibi gözükmelidir.
 
-![This is an alt text.](image\ek4.png "EK 4")
+![This is an alt text.](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek4.png "EK 4")
 
 #### _Ek 4_
 
 ### Domain kısmındaki linkte kaynak kodlarıyla (HTML,CSS,Javascript) oluşturmuş olduğunuz web sitesinin kendisi bulunmaktadır. (Ek 5.)
 
-![This is an alt text.](image\ek5.png "EK 5")
+![This is an alt text.](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek5.png "EK 5")
 
 #### _Ek 5_
 
@@ -102,7 +102,7 @@
 
 ### gelirsek, arama kısmına Lambda yazarak servis arayüzünde bulunan Create Function seçeceğiyle fonksiyon oluşturulur. Ek 6’ da görüldüğü şekilde ayarlar yapılır.
 
-![This is an alt text.](image\ek6.png "EK 6")
+![This is an alt text.](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek6.png "EK 6")
 
 #### _Ek 6_
 
@@ -114,11 +114,11 @@
 
 ### edilir. (Ek 8.) Bütün bu aşamalar tamamlandıktan sonra Lambda fonksiyonunu çağırması için bir API Gateway oluşturulur.
 
-![This is an alt text.](image\ek7.png "EK 7")
+![This is an alt text.](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek7.png "EK 7")
 
 #### _Ek 7_
 
-![This is an alt text.](image\ek8.png "EK 8")
+![This is an alt text.](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek8.png "EK 8")
 
 #### _Ek 8_
 
@@ -134,7 +134,7 @@
 
 ### sonra Create API seçilir. Ardından REST API (Public) seçilir. Ardından açılan sayfada Ek 9 da görüldüğü şekilde ayarlamalar yapılır.
 
-![This is an alt text.](image\ek9.png "EK 9")
+![This is an alt text.](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek9.png "EK 9")
 
 #### _Ek 9_
 
@@ -142,17 +142,17 @@
 
 ### _Actions_ kısmından _Enable CORS_ seçeneğindeki adımlar tamamlanır. Bunun ardından Deploy API seçilerek bir _Stages_ oluşturulur.
 
-![This is an alt text.](image\ek10.png "EK 10")
+![This is an alt text.]([image\ek10.png](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek10.png) "EK 10")
 
 #### _Ek 10_
 
-![This is an alt text.](image\ek11.png "EK 11")
+![This is an alt text.]([image\ek11.png](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek11.png) "EK 11")
 
 #### _Ek 11_
 
 ### Oluşturulan Stages AWS tarafından oluşturulmuş bir URL barındırmaktadır. (Ek 12.)
 
-![This is an alt text.](image\ek12.png "EK 12")
+![This is an alt text.]([image\ek12.png](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek12.png) "EK 12")
 
 #### _Ek 12_
 
@@ -160,7 +160,7 @@
 
 ### kodumuzda script kısmında Ek 13’teki gibi Invoke URL kullanılarak Amplify ile API Gateway servisleri bağlanır.
 
-![This is an alt text.](image\ek13.png "EK 13")
+![This is an alt text.]([image\ek13.png](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek13.png) "EK 13")
 
 #### _Ek 13_
 
@@ -174,7 +174,7 @@
 
 ### izinlerin ve erişimin sağlanması için DynamoDB ile oluşturulan Amazon Resource Name (ARN) kopyalanır (Ek 14) ve gerekli konfigürasyonlar için kullanılır.
 
-![This is an alt text.](image\ek14.png "EK 14")
+![This is an alt text.]([image\ek14.png](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek14.png) "EK 14")
 
 #### _Ek 14_
 
@@ -188,19 +188,19 @@
 
 ### güncellenir. (Ek 15) JSON kodunda yer alan Resource kısmına DynamoDB ile oluşturulan ARN yapıştırılır. Bu sayede DynamoDB için gerekli izinler sağlanmış olur.
 
-![This is an alt text.](image\ek15.png "EK 15")
+![This is an alt text.]([image\ek15.png](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek15.png) "EK 15")
 
 #### _Ek 15_
 
 ### Tüm bu adımların ardından Amplify üzerinden web sitesini çalıştırarak kullanıcı adı ve parola girilir. (Ek 16)
 
-![This is an alt text.](image\ek16.png "EK 16")
+![This is an alt text.](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek16.png "EK 16")
 
 #### _Ek 16_
 
 ### DynamoDB servisiyle _Explore Items_ seçilerek girilen şifre ve kullanıcı adı veri tabanına kaydolmuş olur. (Ek 17)
 
-![This is an alt text.](image\ek17.png "EK 17")
+![This is an alt text.](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek17.png "EK 17")
 
 #### _Ek 17_
 
