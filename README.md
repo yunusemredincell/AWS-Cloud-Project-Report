@@ -22,7 +22,7 @@
 
 ### kullanıma başlanabilir.
 
-![This is an alt text.](image\ek1.png "EK 1")
+![This is an alt text.](https://github.com/yunusemredincell/AWS-Cloud-Project-Report/blob/main/awscloud/image/ek1.png "EK 1")
 
 #### _Ek 1_
 
